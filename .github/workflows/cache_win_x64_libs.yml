@@ -1,6 +1,9 @@
 name: Cache windows_x64 Libraries
 
 on:
+  push:
+    branches:
+      - "goo-engine-v4.4-release"
   workflow_dispatch:
 
 jobs:
