@@ -1,6 +1,9 @@
 name: Check Directory
 
 on:
+  push:
+    branches:
+      - "goo-engine-v4.4-release"
   workflow_dispatch:  # manual trigger
 
 jobs:
